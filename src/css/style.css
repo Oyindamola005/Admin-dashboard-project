@@ -133,3 +133,27 @@ height: 32px;
     margin: 0;
     padding: 16px;
 }
+#account {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+#account img {
+    width: 48;
+    height: 48px;
+}
+#account-name {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+#account-name p {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
