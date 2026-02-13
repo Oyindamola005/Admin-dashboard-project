@@ -177,14 +177,30 @@ button {
     position: relative;
     margin: 0%;
 }
-.cards-1 {
+.cards-a {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cards-1{
+display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 24px;
+    grid-template-rows: max-content;
+}
+#card-sample {
     margin: 0;
     padding: 24px;
     border-left: 8px;
     border-radius: 8px;
-    border-color:rgb(240,180,41) ;
+    border-left: 2px solid rgb(240,180,41);
     position: relative;
-    background-color: rgb(240, 230, 230);
+    background-color: aliceblue;
+}
+#card-icons {
+align-self: flex-end;
 }
 .cards-1 h3{
     margin: 0;
@@ -198,4 +214,9 @@ button {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+#class-text p{
+    font-size: 16px;
+    color: rgb(99, 98, 98);
+    font-weight: 300;
 }
