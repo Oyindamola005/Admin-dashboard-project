@@ -177,3 +177,25 @@ button {
     position: relative;
     margin: 0%;
 }
+.cards-1 {
+    margin: 0;
+    padding: 24px;
+    border-left: 8px;
+    border-radius: 8px;
+    border-color:rgb(240,180,41) ;
+    position: relative;
+    background-color: rgb(240, 230, 230);
+}
+.cards-1 h3{
+    margin: 0;
+    padding: 0;
+}
+.cards-1 p{
+    margin: 0;
+    padding: 0;
+}
+#class-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
